@@ -56,6 +56,12 @@ ul {
     right: 0;
 }
 
+/* tat ca the li la con cua ul */
+
+ul li {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     color: #00aefd;
