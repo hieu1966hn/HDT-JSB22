@@ -1,12 +1,12 @@
 /*  Relaytive */
 
-img {
+/* img {
     position: relative;
     top: 50px;
     left: 50px;
     outline: 2px solid #000;
     max-width: 100px;
-}
+} */
 
 /* absolute */
 
@@ -29,7 +29,7 @@ img {
 } */
 
 /* fixed */
-
+/* 
 * {
     margin: 0px;
     padding: 0px;
@@ -48,16 +48,15 @@ body {
 ul {
     padding: 10px;
     background-color: rgb(136, 130, 130);
-    display: flex;
-    justify-content: space-between;
+  e
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-}
+} */
 
 /* tat ca the li la con cua ul */
-
+/* 
 ul li {
     list-style: none;
 }
@@ -68,4 +67,40 @@ a {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
+} */
+
+
+
+
+
+/* style Flex */
+
+.box{
+    border :1px solid #ccc;
+    min-height: 300px;
+    /* chieu cao luôn lớn hơn 300px */
+}
+
+.box div{
+    margin: 5px;
+    text-align: center;
+    background-color: #72c953;
+}
+
+.box div:nth-child(1){
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+}
+
+.box div:nth-child(2){
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+.box div:nth-child(3){
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
 }
