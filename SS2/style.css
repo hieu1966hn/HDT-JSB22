@@ -79,6 +79,11 @@ a {
     border :1px solid #ccc;
     min-height: 300px;
     /* chieu cao luôn lớn hơn 300px */
+    display: flex;
+    flex-direction: column-reverse;
+    /* justify-content: space-around; */
+    align-items:flex-start;
+    
 }
 
 .box div{

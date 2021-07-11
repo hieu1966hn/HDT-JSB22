@@ -20,3 +20,7 @@ Buổi 2: Mình sẽ học tiếp về Position, và display: flex;
 
 
     - Tất tần tật về display: flex; (CSS3) giúp sắp xếp, bố cục các thành phần khối (block) một cách dễ dàng, linh hoạt hơn trước.
+        + Ta thấy display: flex; đã giúp cho các thành phần được hiển thị linh hoạt hơn
+        + Ta thấy display: inline-flex; đã đối xử với các thành phần dạng như inline
+
+        => Điểm mạnh display: inline-flex; và display: flex; khi 2 giá trị này có thể được dùng kết hợp với thuộc tính khác.
