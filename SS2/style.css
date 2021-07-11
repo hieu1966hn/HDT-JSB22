@@ -1,3 +1,16 @@
+
+
+
+/*  Relaytive */
+img{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    outline: 2px solid #000;
+    max-width: 100px;
+}
+
+/* absolute */
 .content{
     position: relative;
     height: 250px;
@@ -16,14 +29,4 @@
     background-color: #e74c3c;
 
 
-}
-
-
-/*  Relaytive */
-img{
-    position: relative;
-    top: 50px;
-    left: 50px;
-    outline: 2px solid #000;
-    max-width: 100px;
 }
