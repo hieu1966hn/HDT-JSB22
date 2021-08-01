@@ -20,9 +20,32 @@
                 # Kiểm tra có phải kiểu Number hay không? (cú pháp typeof(variable))
                 # Kiểm tra có phải kiểu Number hay không? (sử dụng isNan()) => isNotANumber() : Biến truyền vào không phải kiểu Number đúng không? 
 
-                
+
             ^ String: Kiểu chuỗi: 3 loại ngoặc: ` `, ' ', " "; 
+                #  Kiểm tra có phải kiểu String hay không? (cú pháp typeof(variable))
             ^ Boolean: Kiểu đúng/sai
+                #  Kiểm tra có phải kiểu Boolean hay không? (cú pháp typeof(variable))
             ^ undefinded: Kiểu không xác định
             ^ Null: Không tồn tại giá trị
+
+        * Các phép toán tử: 
+            ^ <: Dấu nhỏ hơn
+            ^ >: Dấu lớn hơn
+            ^ =: Dấu gán giá trị
+            ^ ==: Dấu so sánh tương đối
+            ^ ===: Dấu so sánh tuyệt đối
+            ^ (điều kiện)? Lệnh 1: Lệnh 2; : Toán tử 3 ngôi.
+
+        * Câu điều kiện: Cú pháp
+            ^ if(điều kiện){
+                // Kiểm tra điều kiện đúng thì thực hiện lệnh trong này. Sai thì bỏ qua khối if và chạy lệnh phía sau
+            }
+
+            ^ else if(điều kiện){
+                // Điều kiện này nằm ở giữa if và else, nó sẽ kiểm tra điều kiện khi mà if(điều kiện) là sai. => chạy đến else if.
+            }
+
+            ^ else{
+                Nếu như if không thỏa mãn điều kiện => chạy code trong else
+            }
         
