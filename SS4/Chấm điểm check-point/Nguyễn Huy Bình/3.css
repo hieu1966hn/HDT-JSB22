@@ -1,0 +1,39 @@
+    .block1{
+        border: 1px red ;
+        background-color: red;
+        padding-left: 400px;
+        margin-right: 800px;
+        display: inline-block;
+    }
+
+    /* .img{
+      ;
+    } */
+
+    .block2{
+        border: 1px red ;
+        background-color: red;
+        padding-left: 400px;
+        margin-right: 800px;
+    display:inline-block;
+    margin-bottom: 2px;
+    }
+
+    .smallbox1{
+        border: 1px red ;
+        background-color: red ;
+        padding-left: 20px;
+        display: inline-block;
+    }
+
+    .smallbox2{
+        border: 1px red ;
+        background-color: red ;
+        padding-right: 10px;
+        margin-left: 3px;
+        display: inline-block;
+    }
+
+    .big1{
+        border: yellow;
+    }

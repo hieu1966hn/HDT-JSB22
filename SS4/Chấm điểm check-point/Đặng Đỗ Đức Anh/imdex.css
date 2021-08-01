@@ -1,0 +1,26 @@
+table,td,th{
+   border:1.5px solid #FF0000;
+   border-collapse: collapse;
+}
+table{
+   width: 970px;
+}
+
+.anh{
+   width: 50px;
+   text-align: center;
+   
+}
+.li {
+    color: #FFBBBB;
+    font-size: 18px;
+    font-weight: bold;
+}
+img{
+height: 100%;
+max-width: 150px;
+}
+.table1{
+justify-content: flex-end;
+
+}

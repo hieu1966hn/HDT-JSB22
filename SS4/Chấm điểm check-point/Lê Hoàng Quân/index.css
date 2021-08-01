@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    outline: none;
+}
+
+
+
+
+.max-width {
+    width: 1300px;
+    padding-left: 10%;
+}
+h1 {
+    background-color: red;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+h2 {
+    background-color: rgb(252, 143, 143);
+    color: red;font-size: 30px;
+    height: 50px;
+    display: flex;
+}
+
+
+
+.img {
+    width: 100px;
+    height: 100px;
+
+}

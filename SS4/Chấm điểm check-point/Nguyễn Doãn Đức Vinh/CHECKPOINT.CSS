@@ -1,0 +1,64 @@
+nav{
+    width: 100%;
+    background-color: red;
+    color: white;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+width: 83%;
+}   
+
+menu{
+display: flex;
+align-content: flex-end;
+}
+
+img{
+    height: 175px;
+    width: 175px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+a{
+    font-size: 30px;
+}
+
+
+
+.menus{
+display: flex;
+justify-content: center;
+margin-top: 0px;
+}
+
+
+.b{
+    background-color: lightpink;
+    color: red;
+    justify-content: center;
+    height: 85 px;
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+width: 83%;
+margin-top: 100px
+}
+
+
+.III{
+    position: absolute;
+}
+
+table{
+    padding: 225px;
+    font-size: 20px;
+
+    border: 2px solid red;
+}
+.Big{
+    display: flex;
+
+}

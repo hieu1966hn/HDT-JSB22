@@ -1,0 +1,10 @@
+C1:D
+C2:A
+C3:Bf
+C4:A
+C5:Df
+C6:D
+C7:C
+C8:A
+C9:A
+C10:B

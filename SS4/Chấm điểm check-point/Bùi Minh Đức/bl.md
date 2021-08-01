@@ -1,0 +1,10 @@
+câu1 D 
+câu2 A
+câu3 C
+câu4 A
+câu5 B
+câu6 C
+câu7 C
+câu8 A
+câu9 D
+câu10 A

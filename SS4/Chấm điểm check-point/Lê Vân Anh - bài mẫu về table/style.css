@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+table, td, div{
+    border: 1px solid #FF0000;
+    border-collapse: collapse;
+}
+td{
+    text-align: left;
+}
+.head{
+    width: 100%; 
+    
+}
+.head1{
+    background-color: #FF0000;
+    color: white;
+    font-size: 120%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head2{
+    font-size: 150%;
+    color: #FF0000;
+    background-color: #FFBBBB;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-style{
+    font-style: italic;
+    font-weight: bold;
+}
+p{
+    color: #FF0000;
+    margin-bottom: 30px;
+}
+li{
+    margin-bottom: 30px;
+}
+.img{
+    float: right;
+}
