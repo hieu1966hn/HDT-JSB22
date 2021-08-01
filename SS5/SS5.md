@@ -10,5 +10,19 @@
 
     + Ngôn ngữ lập trình có: Biến, toán tử, vòng lặp, điều kiện, hướng đối tượng.... (Java, JS, PHP, Python, Ruby, C, C++, C#)
 
-        * Khai báo biến
+        * Khai báo biến (Để lưu trữ dữ liệu)
             ^ const là hằng số: cannot change value;
+            ^ let (Nên dùng cái này): Khai báo biến cục bộ: Chỉ được dùng trong khối của nó => ngoài khối ko sử dụng được.
+            ^ var: Khai báo biến toàn cục: Sử dụng được trong toàn file
+
+        * Các kiểu dữ liệu nguyên thủy của Javascript: (5 kiểu)
+            ^ Number: kiểu số
+                # Kiểm tra có phải kiểu Number hay không? (cú pháp typeof(variable))
+                # Kiểm tra có phải kiểu Number hay không? (sử dụng isNan()) => isNotANumber() : Biến truyền vào không phải kiểu Number đúng không? 
+
+                
+            ^ String: Kiểu chuỗi: 3 loại ngoặc: ` `, ' ', " "; 
+            ^ Boolean: Kiểu đúng/sai
+            ^ undefinded: Kiểu không xác định
+            ^ Null: Không tồn tại giá trị
+        
