@@ -10,9 +10,15 @@
 
 
 //  In ra từ 1 -> 10 = do while
-let i =1;
-do{
-    console.log(i);// 1,2,3,..,10
-    i = i +1;
+// let i =1;
+// do{
+//     console.log(i);// 1,2,3,..,10
+//     i = i +1;
+// }
+// while(i<=10);
+
+
+///// Vòng lặp for: in ra các số từ 1-> 10;
+for (let i = 1; i <= 10; i = i + 1) {
+    console.log(i);// in ra 1,2,3....,10
 }
-while(i<=10);
