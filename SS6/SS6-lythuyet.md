@@ -14,3 +14,13 @@
         }
         while(<điều kiện>);
         ...
+
+    + for: Vòng lặp biết trước số lần lặp
+        * Cú pháp: 
+        for(câu lệnh 1; điều kiện; câu lệnh){
+            ... code
+        }
+        B1: Chạy câu lệnh 1 lần đầu tiên và duy Nhất
+        B2: kiểm tra điều kiện lặp tại mục điều kiện. Nếu đùng => Chạy code trong for
+                                                    Nếu sai => thoát vòng lặp for
+        B3: Lặp lại kiểm tra lại điều kiện ở mục điều kiện. Nếu đúng => chạy code cho tới khi nào điều kiện sai => thoát vòng lặp.
