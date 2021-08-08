@@ -6,3 +6,11 @@
             ..code
         }
     
+    + do - while:Cho phép lặp lần đầu tiên (free) => kiểm tra điều kiện, Nếu đúng => lặp
+                                                                Nếu sai => thoát vòng lặp
+        * Cú pháp
+        do{
+            ...code
+        }
+        while(<điều kiện>);
+        ...
