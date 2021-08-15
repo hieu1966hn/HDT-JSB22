@@ -56,30 +56,45 @@
 ///////// Giới thiệu Về object
 let Quan = {
     //  thuộc tính được định nghĩa
-    name:"Lê Hoàng Quân",
+    name: "Lê Hoàng Quân",
     age: 13,
     address: "Việt Nam",
     Id: 1234567891012,
 
 
     // method: phương thức
-    say: function(){
+    say: function () {
         alert("Quân đang nói gì đó");
     },
-    walk: function(){
+    walk: function () {
         alert("Ban Quan dang di bo")
     }
 };
 
-Quan.walk();
+// Quan.walk();
 console.log(Quan.name);
 
 
 // C,R,U,D với object
 
-// them thuộc tính cho object
+// C: them thuộc tính cho object
 Quan.sex = 'male';
+
+
+// R
+// console.log(Quan);
+
+
+// U: Update 
+// upđate: thuộc tính 
+Quan.age = 103;
 console.log(Quan);
+// upđate: Phương thức
+Quan.say = function () {
+    alert("Anh Hiếu đẹp troai")
+}
+Quan.say();
 
+/// delete 1 phương thức;
+delete Quan.walk;
 
-// Them 1 
