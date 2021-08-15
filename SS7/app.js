@@ -106,9 +106,22 @@ let TraiCay = [
     ["banana", 20],
     ["apple", 200],
 ]
-let a;
-for (let i = 0; i < TraiCay.length; i++) {
-    a = TraiCay[i];
-    console.log(`Tôi có ${a[1]} quả ${a[0]}`);
-}
+// let a;
+// for (let i = 0; i < TraiCay.length; i++) {
+//     a = TraiCay[i];
+//     console.log(`Tôi có ${a[1]} quả ${a[0]}`);
+// }
 
+// Bai02:
+// C2 
+// for (let key in TraiCay) {
+//     // console.log(key); Hiểu Key là vị trí phần tử trong mảng
+//     let b = TraiCay[key];
+//     console.log(`Tôi có ${b[1]} quả ${b[0]}`);
+// }
+
+// C3: 
+for(let key of TraiCay) {
+    // console.log(key); Key: chính là phần tử trong mảng
+    console.log(`Tôi có ${key[1]} quả ${key[0]}`);
+}
