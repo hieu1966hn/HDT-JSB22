@@ -101,11 +101,11 @@
 
 /////////////// Chữa bài tập về nhà
 // Bai01
-let TraiCay = [
-    ["Grape", 15],
-    ["banana", 20],
-    ["apple", 200],
-]
+// let TraiCay = [
+//     ["Grape", 15],
+//     ["banana", 20],
+//     ["apple", 200],
+// ]
 // let a;
 // for (let i = 0; i < TraiCay.length; i++) {
 //     a = TraiCay[i];
@@ -121,7 +121,26 @@ let TraiCay = [
 // }
 
 // C3: 
-for(let key of TraiCay) {
-    // console.log(key); Key: chính là phần tử trong mảng
-    console.log(`Tôi có ${key[1]} quả ${key[0]}`);
+// for(let key of TraiCay) {
+//     // console.log(key); Key: chính là phần tử trong mảng
+//     console.log(`Tôi có ${key[1]} quả ${key[0]}`);
+// }
+
+
+// Bài 03; 
+let myDog = {
+    "name": "Ngáo",
+    "legs": 4,
+    "friends": ["everything"]
 }
+console.log(myDog, " tên chưa đổi");
+myDog.name = "Husky";
+
+
+//  thêm thuộc tính màu cho 
+myDog.color = "Green"
+console.log(myDog, "sau khi thêm thuộc tính màu");
+
+// xóa thuộc tính friends 
+delete myDog.friends;
+console.log(myDog, "sau khi xóa thuộc tính friends");
