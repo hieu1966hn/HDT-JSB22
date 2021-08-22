@@ -30,3 +30,32 @@ let myArr = [9, 7, 9, 0, 7, 8, 387, 123, 456];
 // }
 
 
+let myAnsers = []; // khai báo mảng rỗg nhé
+let stop = true;
+do {
+  
+  let input = prompt("EM ăn cơm chưa???");
+
+  if (myAnsers.length == 1) {
+    input = prompt("Em có muốn ăn bánh ngọt hemmm!!")
+  }
+  else if (myAnsers.length == 2) {
+    input = prompt("Em có nhớ anh không");
+  }
+  else if (myAnsers.length == 3) {
+    input = prompt("Em buồn ngủ chưa");
+  }
+  else if (myAnsers.length == 4) {
+    input = prompt("G9 em");
+  }
+  else {
+    console.log("");
+  }
+  myAnsers.push(input);
+
+  // let temp = myAnsers.find(index => index =="no");
+  // if(temp == no){
+  //   stop = false;
+  // }
+}
+while (myAnsers.length < 5 && stop == true);
