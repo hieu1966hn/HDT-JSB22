@@ -6,6 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+  <style>
+    #info input{
+      padding: 10px 20px;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -18,8 +25,25 @@
   </p> -->
 
   <h1 id="tieuDe" >
-    Đổi màu thẻ h1 từ màu đen thành màu Đỏ
+    Form thông tin người dùng
   </h1>
+  <div class="info-box">
+    <form id="info">
+        <p>Name:</p>
+        <input type="text" placeholder="Người dùng nhập vào tên" required>
+
+        <p>Email:</p>
+        <input type="email" placeholder="Người dùng nhập vào Email" required>
+
+        <p>Website:</p>
+        <input type="text" placeholder="Người dùng nhập vào website">
+
+        <p>Comment:</p>
+        <input type="text" placeholder="Người dùng nhập vào comment">
+    </form>
+  </div>
+
+
 
   <script src="./app.js"></script>
 </body>
