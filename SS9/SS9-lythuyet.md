@@ -25,7 +25,7 @@ Cách truy xuất trực tiếp thẻ (3 phương thức):
 
 - Thay vi su dung onclick, DOM cung  cap cho chung ta 1 phương thức lắng nghe sự kiện
 
-<!-- Quang trong -->
+<!-- Quan trong -->
 TheHTML.addEventListener("Sự kiện được lắng nghe", ()=>{
   <!-- Hành động xảy ra khi lắng nghe sự kiện đó -->
 })

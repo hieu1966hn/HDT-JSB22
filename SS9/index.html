@@ -8,8 +8,17 @@
   <title>Document</title>
 
   <style>
-    #info input{
+    #info {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
+
+    #info input {
       padding: 10px 20px;
+    }
+    button{
+      margin-top: 10px;
     }
   </style>
 
@@ -24,23 +33,29 @@
 
   </p> -->
 
-  <h1 id="tieuDe" >
+  <h1 id="tieuDe">
     Form thông tin người dùng
   </h1>
   <div class="info-box">
+
     <form id="info">
-        <p>Name:</p>
-        <input type="text" placeholder="Người dùng nhập vào tên" required>
+      <p>Name:</p>
+      <input type="text" name="name" placeholder="Người dùng nhập vào tên">
 
-        <p>Email:</p>
-        <input type="email" placeholder="Người dùng nhập vào Email" required>
+      <p>Email:</p>
+      <input type="text" name="email" placeholder="Người dùng nhập vào Email">
 
-        <p>Website:</p>
-        <input type="text" placeholder="Người dùng nhập vào website">
+      <p>Website:</p>
+      <input type="text" name="website" placeholder="Người dùng nhập vào website">
 
-        <p>Comment:</p>
-        <input type="text" placeholder="Người dùng nhập vào comment">
+      <p>Comment:</p>
+      <input type="text" name="comment" placeholder="Người dùng nhập vào comment">
+
+
+      <button type="submit">Submit</button>
     </form>
+
+
   </div>
 
 

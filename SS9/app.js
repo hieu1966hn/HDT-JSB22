@@ -10,9 +10,9 @@
 function myFunction() {
   let x = document.getElementById("myBtn").
     attributes[0].name;
-    // luu tru thuoc tinh dau tien cua the co #myBtn
+  // luu tru thuoc tinh dau tien cua the co #myBtn
   document.getElementById("demo").innerHTML = x;
-  
+
 }
 
 
@@ -26,8 +26,29 @@ function myFunction() {
 const h1 = document.getElementById("tieuDe");
 console.log(h1);
 
-h1.addEventListener("click", function(){
+h1.addEventListener("click", function () {
   console.log("addEventListener hoat dong nha");
   h1.style.color = "blue"
 })
 
+
+
+//  lay  ra the form co id tuong ung
+const formSubmit = document.getElementById("info");
+formSubmit.addEventListener("submit", function (event) {
+    event.preventDefault();
+    // ngan su kien load lai trang mac dinh cua trinh duyet
+    console.log("ban da bam vao submit roi day");
+
+
+    // khai bao bien data chua toan bo thong tin minh nhap trong form
+    const data={
+      name: formSubmit.name.value.trim(),
+      email: formSubmit.email.value.trim(),
+      website: formSubmit.website.value.trim(),
+      comment: formSubmit.comment.value.trim()
+    }
+
+    console.log(data);
+
+})
