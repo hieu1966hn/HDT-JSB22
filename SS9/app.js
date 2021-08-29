@@ -32,6 +32,8 @@ h1.addEventListener("click", function () {
 })
 
 
+let HumanInfor = []
+
 
 //  lay  ra the form co id tuong ung
 const formSubmit = document.getElementById("info");
@@ -48,7 +50,13 @@ formSubmit.addEventListener("submit", function (event) {
       website: formSubmit.website.value.trim(),
       comment: formSubmit.comment.value.trim()
     }
-
     console.log(data);
+    HumanInfor.push(data);
+
+
+    formSubmit.name.value = "";
+    formSubmit.email.value = "";
+    formSubmit.website.value = "";
+    formSubmit.comment.value = "";
 
 })
