@@ -32,7 +32,7 @@ h1.addEventListener("click", function () {
 })
 
 
-let HumanInfor = []
+let UserInfor = [];
 
 
 //  lay  ra the form co id tuong ung
@@ -63,15 +63,28 @@ formSubmit.addEventListener("submit", function (event) {
       website: formSubmit.website.value.trim(),
       comment: formSubmit.comment.value.trim()
     }
-    console.log(data);
-    HumanInfor.push(data);
+    // console.log(data);
+
+    // khi reload browser thì ko bị mất những gì mình đã nhập
+
+    //Kiểm tra key UserInfor trên localStorage có tồn tại phần tử nào không,
+    // nếu có, ta chạy code sau
+
+    let x = JSON.parse(localStorage.getItem("UserInfor")); // x là mảng được lấy ra từ localStorage
+    if (x.length > 0) {
+      UserInfor = [...x];
+    }
+    UserInfor.push(data);
+
+    // Tiến hành lưu trữ mảng UserInfor vào localStorage
+    localStorage.setItem("UserInfor", JSON.stringify(UserInfor))
+
 
     formSubmit.name.value = "";
     formSubmit.email.value = "";
     formSubmit.website.value = "";
     formSubmit.comment.value = "";
   }
-
 })
 
 

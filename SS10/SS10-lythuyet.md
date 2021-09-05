@@ -20,3 +20,5 @@ Giới thiệu về localStorage là gì?
 
   Bước 3; Xóa dữ liệu đã lưu trữ trên localStorage
   localStorage.removeItem('key')
+
+- Nhiệm Vụ: Lưu trữ mảng vào trong localStorage
