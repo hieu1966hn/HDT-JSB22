@@ -33,6 +33,7 @@ h1.addEventListener("click", function () {
 
 
 let UserInfor = [];
+localStorage.setItem("UserInfor", JSON.stringify(UserInfor))
 
 
 //  lay  ra the form co id tuong ung
@@ -70,9 +71,11 @@ formSubmit.addEventListener("submit", function (event) {
     //Kiểm tra key UserInfor trên localStorage có tồn tại phần tử nào không,
     // nếu có, ta chạy code sau
 
-    let x = JSON.parse(localStorage.getItem("UserInfor")); // x là mảng được lấy ra từ localStorage
+    let x = JSON.parse(localStorage.getItem("UserInfor"));
+    // x là mảng được lấy ra từ localStorage
     if (x.length > 0) {
       UserInfor = [...x];
+      // cú pháp copy toàn bộ các phần tử mảng từ mảng x;
     }
     UserInfor.push(data);
 
