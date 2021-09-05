@@ -65,12 +65,12 @@ formSubmit.addEventListener("submit", function (event) {
     }
     console.log(data);
     HumanInfor.push(data);
-  }
 
-  formSubmit.name.value = "";
-  formSubmit.email.value = "";
-  formSubmit.website.value = "";
-  formSubmit.comment.value = "";
+    formSubmit.name.value = "";
+    formSubmit.email.value = "";
+    formSubmit.website.value = "";
+    formSubmit.comment.value = "";
+  }
 
 })
 
