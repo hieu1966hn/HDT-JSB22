@@ -31,9 +31,10 @@ h1.addEventListener("click", function () {
   h1.style.color = "blue"
 })
 
-
+////////////////////// Khai báo localStorage
 let UserInfor = [];
-localStorage.setItem("UserInfor", JSON.stringify(UserInfor))
+if (!(JSON.parse(localStorage.getItem("UserInfor"))))
+  localStorage.setItem("UserInfor", JSON.stringify(UserInfor))
 
 
 //  lay  ra the form co id tuong ung
@@ -64,7 +65,7 @@ formSubmit.addEventListener("submit", function (event) {
       website: formSubmit.website.value.trim(),
       comment: formSubmit.comment.value.trim()
     }
-    // console.log(data);
+    console.log(data);
 
     // khi reload browser thì ko bị mất những gì mình đã nhập
 
@@ -72,6 +73,7 @@ formSubmit.addEventListener("submit", function (event) {
     // nếu có, ta chạy code sau
 
     let x = JSON.parse(localStorage.getItem("UserInfor"));
+    console.log(x);
     // x là mảng được lấy ra từ localStorage
     if (x.length > 0) {
       UserInfor = [...x];
@@ -87,6 +89,8 @@ formSubmit.addEventListener("submit", function (event) {
     formSubmit.email.value = "";
     formSubmit.website.value = "";
     formSubmit.comment.value = "";
+
+    // window.location.href = "./trangChu.html"
   }
 })
 
