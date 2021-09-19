@@ -22,3 +22,11 @@ Giới thiệu về localStorage là gì?
   localStorage.removeItem('key')
 
 - Nhiệm Vụ: Lưu trữ mảng vào trong localStorage
+
+- Lý thuyết mới như sau: Đối tượng location trong Javascript
+
+  - Đối tượng location là con của đối tượng window và Đối tượng location này chuyên dùng để xử lý, điều hướng url của trang web.
+
+  - Cú pháp : window.location;
+
+  - redirect trang web bằng javascript: sử dụng window.location.href = ''

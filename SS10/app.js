@@ -31,10 +31,15 @@ h1.addEventListener("click", function () {
   h1.style.color = "blue"
 })
 
+
+
+
 ////////////////////// Khai báo localStorage
 let UserInfor = [];
-if (!(JSON.parse(localStorage.getItem("UserInfor"))))
+// nếu như không tồn tại localStorage với từ khóa: UserInfor
+if (!(JSON.parse(localStorage.getItem("UserInfor")))) {
   localStorage.setItem("UserInfor", JSON.stringify(UserInfor))
+}
 
 
 //  lay  ra the form co id tuong ung
@@ -62,6 +67,7 @@ formSubmit.addEventListener("submit", function (event) {
     const data = {
       name: formSubmit.name.value.trim(),
       email: formSubmit.email.value.trim(),
+      password: formSubmit.password.value.trim(),
       website: formSubmit.website.value.trim(),
       comment: formSubmit.comment.value.trim()
     }
@@ -79,6 +85,7 @@ formSubmit.addEventListener("submit", function (event) {
       UserInfor = [...x];
       // cú pháp copy toàn bộ các phần tử mảng từ mảng x;
     }
+
     UserInfor.push(data);
 
     // Tiến hành lưu trữ mảng UserInfor vào localStorage
@@ -90,7 +97,10 @@ formSubmit.addEventListener("submit", function (event) {
     formSubmit.website.value = "";
     formSubmit.comment.value = "";
 
-    // window.location.href = "./trangChu.html"
+    alert("Bạn đã đăng ký tài khoản thành công, di chuyển tới trang login");
+
+    window.location.href = "./html/login.html"
+    // vì khi đăng ký xong, người dùng tiến hành đăng nhập -> đi tới trang login
   }
 })
 
