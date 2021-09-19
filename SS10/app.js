@@ -47,13 +47,16 @@ const formSubmit = document.getElementById("info");
 formSubmit.addEventListener("submit", function (event) {
   event.preventDefault();
   // ngan su kien load lai trang mac dinh cua trinh duyet
-  console.log("ban da bam vao submit roi day");
+  // console.log("ban da bam vao submit roi day");
 
   if (formSubmit.name.value.trim() === "") {
     alert("please type your name");
   }
   else if (formSubmit.email.value.trim() === "") {
     alert("please type your email");
+  }
+  else if (formSubmit.password.value.trim() === "") {
+    alert("please type your password");
   }
   else if (formSubmit.website.value.trim() === "") {
     alert("please type your website");
@@ -99,7 +102,7 @@ formSubmit.addEventListener("submit", function (event) {
 
     alert("Bạn đã đăng ký tài khoản thành công, di chuyển tới trang login");
 
-    window.location.href = "./html/login.html"
+    window.location.href = "./login.html"
     // vì khi đăng ký xong, người dùng tiến hành đăng nhập -> đi tới trang login
   }
 })
@@ -113,6 +116,7 @@ formSubmit.addEventListener("submit", function (event) {
 // console.log(
 //   localStorage.getItem("z") // khong ton tai bien z
 // );
+
 
 
 
